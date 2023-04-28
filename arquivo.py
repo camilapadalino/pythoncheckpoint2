@@ -9,7 +9,6 @@ cont = 1
 while cont <= 1000:  
     n = int(input("Insira um número positivo: "))
 
-    if n <= 0:
+    if n == 0:
         break
-    elif n >= 1001:
-        break
+    elif n >= 1001 and n < 0:
