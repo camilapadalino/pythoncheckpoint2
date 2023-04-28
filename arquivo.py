@@ -11,3 +11,5 @@ while cont <= 1000:
 
     if n <= 0:
         break
+    elif n >= 1001:
+        break
