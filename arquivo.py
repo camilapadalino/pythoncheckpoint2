@@ -29,7 +29,7 @@ def primo_proximo(numero):
 
 #Pedindo o número ao usuário e verificando se é válido
 while True:
-    numero = int(input("Insira um número positivo: "))
+    numero = int(input("Insira um número positivo de 1 a 1000 (para encerrar o programa, digite 0): "))
     if numero == 0:
         print("Fim do programa")
         break
