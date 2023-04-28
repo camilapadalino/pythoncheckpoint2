@@ -22,9 +22,9 @@ def primo_proximo(numero):
         n += 1
         if calcular_numero_primo(numero):
             return numero
-        if calcular_numero_primo(numero-n):
+        elif calcular_numero_primo(numero-n):
             return numero - n
-        if calcular_numero_primo(numero+n):
+        elif calcular_numero_primo(numero+n):
             return numero + n
 
 #Pedindo o número ao usuário e verificando se é válido
